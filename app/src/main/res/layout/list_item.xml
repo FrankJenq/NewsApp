@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/news_item_padding"
+    android:paddingLeft="@dimen/news_item_padding"
+    android:paddingRight="@dimen/news_item_padding"
+    android:paddingTop="@dimen/news_item_padding">
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="@dimen/padding_title"
+        android:paddingLeft="@dimen/padding_title"
+        android:maxLines="2"
+        android:textAllCaps="true"
+        android:background="@color/background_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/news_title" />
+
+    <TextView
+        android:id="@+id/news_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textTime"
+        android:textSize="@dimen/news_text"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/trail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:maxLines="3"
+        android:textColor="@color/textTrailText"
+        android:textSize="@dimen/news_text" />
+
+</LinearLayout>

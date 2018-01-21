@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_channel_labels">
+        <item>@string/settings_channel_newest_label</item>
+        <item>@string/settings_channel_politic_label</item>
+        <item>@string/settings_channel_sports_label</item>
+        <item>@string/settings_channel_science_label</item>
+        <item>@string/settings_channel_entertainment_label</item>
+    </string-array>
+
+    <string-array name="settings_channel_values">
+        <item>@string/settings_channel_newest_value</item>
+        <item>@string/settings_channel_politic_value</item>
+        <item>@string/settings_channel_sports_value</item>
+        <item>@string/settings_channel_science_value</item>
+        <item>@string/settings_channel_entertainment_value</item>
+    </string-array>
+</resources>
